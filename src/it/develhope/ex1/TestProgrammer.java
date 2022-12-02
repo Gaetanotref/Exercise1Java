@@ -1,3 +1,7 @@
+package it.develhope.ex1;
+
+import it.develhope.ex1.Programmer;
+
 public class TestProgrammer {
     public static void main(String[] args) {
         //Creating programmers(instance)
@@ -6,9 +10,9 @@ public class TestProgrammer {
 
         //Call methods
         giacomo.drinkcoffe();
-        giacomo.printDetails(giacomo);
+        giacomo.printDetails();
 
-        francesco.printDetails(francesco);
-        francesco.hasGlasses(francesco);
+        francesco.printDetails();
+        francesco.hasGlasses();
     }
 }
